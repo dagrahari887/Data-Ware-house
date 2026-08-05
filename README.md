@@ -8,7 +8,7 @@ Welcome to the **Data Warehouse and Analytics Project** repository! This project
 
 This project follows the **Medallion Architecture**, organizing data into three distinct layers (**Bronze**, **Silver**, and **Gold**) to ensure data quality, lineage, and query performance:
 
-![Data Architecture]("E:\SQL Warehouse\Docs\data_architecture.png")
+![Data Architecture]"E:\SQL Warehouse\Docs\data_architecture.png"
 
 1. **Bronze Layer (Raw Data):** Ingests raw CSV source data from operational systems (**ERP** and **CRM**) directly into SQL Server without transformations.
 2. **Silver Layer (Cleansed Data):** Performs data cleansing, standardization, structural normalization, and domain validation to prepare data for modeling.
